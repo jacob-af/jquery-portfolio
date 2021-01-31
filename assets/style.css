@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Pinyon+Script&family=Special+Elite&display=swap');
+body {
+    background-color: #2D3439;
+    color: #FF6333;
+}
+
+.navbar-brand {
+    animation: pulse 4s linear;
+    font-size: 30px;
+    font-family: "Special Elite", "Helvetica";
+}
+
+.fa {
+    color: #FF6333;
+    font-size: 20px;
+}
+
+.navbar-togglr {
+    border: 2px solid #FF71A7;
+    background-color: #2D3439;
+}
+
+.row {
+    background-color: #E6837D;
+    padding: 10px;
+    border: 20px solid #FF6333;
+    border-radius: 10px;
+}
+
+.col {
+    background-color: #FF71A7;
+    border: 2px solid#FF3C86;
+    color: #61666C;
+}
+
+a {
+    color: #FF6333;
+}
+
+a:hover {
+    color: #FF71A7;
+}
+
+.d-block {
+    max-height: 350px;
+}
+
+footer {
+    background-color: #2D3439;
+}
+
+@keyframes pulse {
+    0% {
+        color: #2D3439;
+    }
+    75% {
+        color: #FF71A7;
+    }
+    90% {
+        color: #E6837D;
+    }
+    100% {
+        color: #FF6333;
+    }
+}
