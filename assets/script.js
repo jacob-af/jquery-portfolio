@@ -5,7 +5,7 @@ $(document).ready(function () {
   });
 
   $("#home-click").on("click", () => {
-    $("#portfolio").fadeOut();
+    $("#portfolio").hide();
     $("#contact").hide();
     $("#profile").show();
     $(".navbar-collapse").removeClass("show");
@@ -13,8 +13,8 @@ $(document).ready(function () {
 
   $("#portfolio-click").on("click", () => {
     $("#profile").hide();
-    $("#portfolio").show();
     $("#contact").hide();
+    $("#portfolio").show();
     $(".navbar-collapse").removeClass("show");
   });
   $("#contact-click").on("click", () => {

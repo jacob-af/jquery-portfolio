@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Pinyon+Script&family=Special+Elite&display=swap');
 body {
-    background-color: #2D3439;
     color: #FF6333;
+    background: url("./img_4494.JPG") no-repeat center center fixed;
+    background-size: cover;
 }
 
 .navbar-brand {
@@ -21,15 +22,15 @@ body {
 }
 
 .row {
-    background-color: #E6837D;
-    padding: 10px;
+    /* background-color: #E6837D;
     border: 20px solid #FF6333;
-    border-radius: 10px;
+    border-radius: 10px; */
+    padding: 10px;
 }
 
 .col {
-    background-color: #FF71A7;
-    border: 2px solid#FF3C86;
+    /* background-color: #FF71A7;
+    border: 2px solid#FF3C86; */
     color: #61666C;
 }
 
@@ -42,7 +43,7 @@ a:hover {
 }
 
 .d-block {
-    max-height: 350px;
+    max-width: 500px;
 }
 
 footer {
