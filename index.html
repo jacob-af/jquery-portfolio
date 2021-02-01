@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+
+    <title>Jacob A. Feitler</title>
+</head>
+
+<body>
+    <!-- header with navigation-->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <span class="navbar-brand pl-2">Jacob A. Feitler</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span><i class="fa fa-flask"></i></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-right active" id="home-click" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-right" id="portfolio-click" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-right" id='contact-click' href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class='container-fluid pt-5'>
+        <div class="animate__animated animate__fadeInLeft row" id='profile'>
+            <div class="col">
+                <img src='./assets/headshot-from-cocktail-shot.png' class='img-fluid float-left' id='headshot'
+                    alt='headshot' />
+                <p class='bio'>I am a Full Stack Web Developer excited to use my skills in efficient problem solving,
+                    structured
+                    teamwork, and pragmatic design to create web applications that are equally functional and
+                    beautiful.In my previous career in restaurants andhospitality, the ability to ‘Figure it out, make
+                    it work, and move forward” wasparamount to my success. I'm excited to bring new and more exciting
+                    projects as I develop further skills in web development.</p>
+            </div>
+        </div>
+
+        <div class="animate__animated animate__fadeInUpBig row justify-content-center" id='portfolio'
+            style="display: none">
+            <div class="col portfolio">
+                <h2 class='portfolio'>Portfolio Projects</h2>
+                <div id="github-carousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block mx-auto" src="./assets/weather-travel.png" alt="First slide">
+                            <div class='text-center'>
+                                <h3>Responsive weather dashboard using Open Weather API</h3>
+                                <a href="https://www.jacobaf.com/weather-travel/" target="_blank">Weather Travel</a>
+                                <a href="https://github.com/jacob-af/weather-travel" target="_blank">GitHub
+                                    Repository</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block mx-auto" src="./assets/puppy-party.png" alt="Second slide">
+                            <div class='text-center'>
+                                <h3>Schedule all your trips to the Dog Park</h3>
+                                <a href="https://jaortisi6.github.io/Puppy-Party-Planner/" target="_blank">Puppy Party
+                                    Planner</a>
+                                <a href="https://github.com/jaortisi6/Puppy-Party-Planner" target="_blank">GitHub
+                                    Repository</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block mx-auto" src="./assets/quiz-time.png" alt="Third slide">
+                            <div class='text-center'>
+                                <h3>Timed quiz covering some JavaScript basics</h3>
+                                <a href="https://www.jacobaf.com/quiz-time/" target="_blank">Quiz Time</a>
+                                <a href="https://github.com/jacob-af/quiz-time" target="_blank">GitHub Repository</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block mx-auto" src="./assets/work-day-scheduler.png" alt="Fourth slide">
+                            <div class='text-center'>
+                                <h3>Work Day Planner using Local Storage</h3>
+                                <p>
+                                    Deployed Site: <a href="https://www.jacobaf.com/day-planer/" target="_blank">Day
+                                        Planner</a>
+                                </p>
+                                <a href="https://github.com/jacob-af/day-planner" target="_blank">GitHub Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#github-carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#github-carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row animate__animated animate__fadeInRight" id='contact' style="display: none">
+            <div class="col">Contact Page Content
+                <div>
+                    <a href="./assets/JacobFeitlersResume012021.pdf" download>PDF Resume</a>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/Inflammable" target="_blank" class="fa fa-facebook">:
+                        facebook.com/Inflammable</a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/jacob.af/" target="_blank" class="fa fa-instagram">:
+                        instagram/jacob.af</a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/jacobaf/" target="_blank" class="fa fa-linkedin">:
+                        linkedin/in/jacobaf</a>
+                </div>
+                <div>
+                    <a href="https://github.com/jacob-af" target="_blank" class="fa fa-github">: github.com/jacob-af</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="text-center fixed-bottom p-2 border-top border-dark">
+        <a href="https://www.facebook.com/Inflammable" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/jacob.af/" target="_blank" class="fa fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/jacobaf/" target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://github.com/jacob-af" target="_blank" class="fa fa-github"></a>
+        <a href='https://www.jacobaf.com' class="float-right">&copy; jacob feitler 2020</a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>

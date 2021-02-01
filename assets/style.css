@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Pinyon+Script&family=Special+Elite&display=swap');
+body {
+    color: #FF6333;
+    background: url("./img_4494.JPG") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.navbar {
+    color: #8a2000;
+}
+
+.navbar-brand {
+    animation: pulse 4s linear;
+    font-size: 28px;
+    font-family: "Special Elite", "Helvetica";
+}
+
+.fa {
+    color: #FF6333;
+    font-size: 20px;
+}
+
+.navbar-togglr {
+    border: 2px solid #FF71A7;
+    background-color: #2D3439;
+}
+
+.row {
+    /* background-color: #E6837D;
+    border: 20px solid #FF6333;
+    border-radius: 10px; */
+    padding: 10px;
+}
+
+.col {
+    /* background-color: #FF71A7;
+    border: 2px solid#FF3C86; */
+    color: #61666C;
+}
+
+p {
+    color: #8a2000;
+    font-size: 16px;
+    font-family: 'JetBrains Mono';
+}
+
+a {
+    color: #8a2000;
+    font-family: "Special Elite", "Helvetica";
+    font-size: 18px;
+}
+
+a:hover {
+    color: #FF71A7;
+}
+
+#headshot {
+    max-width: 280px;
+    border-radius: 50%;
+}
+
+.portfolio {
+    max-width: 800px;
+}
+
+.d-block {
+    max-width: 500px;
+}
+
+footer {
+    background-color: #2D3439;
+}
+
+@media (max-width: 520px) {
+    .bio {
+        background-image: linear-gradient(to bottom, #88A2C1, #EEDAB5)
+    }
+}
+
+@keyframes pulse {
+    0% {
+        color: #2D3439;
+    }
+    75% {
+        color: #FF71A7;
+    }
+    90% {
+        color: #E6837D;
+    }
+    100% {
+        color: #FF6333;
+    }
+}
