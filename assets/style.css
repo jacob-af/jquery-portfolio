@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Pinyon+Script&family=Special+Elite&display=swap');
 body {
-    background: url("./img_4494.JPG") no-repeat center center fixed;
+    background: url("./main-image.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -72,8 +72,9 @@ a:hover {
 }
 
 .portfolio {
-    background-image: linear-gradient(to bottom, #526888, #EEDAB5);
+    background-color: #AAC0D5;
     max-width: 1200px;
+    border: 3px solid #2D3439;
     border-radius: 20px;
 }
 
@@ -84,6 +85,7 @@ a:hover {
 
 .d-block {
     max-width: 800px;
+    margin: 0 auto;
 }
 
 .contact a {
