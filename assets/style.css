@@ -1,28 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Pinyon+Script&family=Special+Elite&display=swap');
 body {
-    color: #FF6333;
     background: url("./img_4494.JPG") no-repeat center center fixed;
     background-size: cover;
 }
 
-.navbar {
+header, footer {
+    background-color: #2D3439;
+    color: #FF6333;
+}
+
+h1 {
     color: #8a2000;
+    font-size: 24px;
+    font-family: "Special Elite", "Helvetica";
+}
+
+p {
+    color: #8a2000;
+    font-size: 16px;
+    font-family: 'JetBrains Mono';
+}
+
+a {
+    color: #ff6333;
+    font-family: "Special Elite", "Helvetica";
+    font-size: 18px;
+}
+
+a:hover {
+    color: #FFFFFF;
 }
 
 .navbar-brand {
+    color: #FF6333;
     animation: pulse 4s linear;
     font-size: 28px;
     font-family: "Special Elite", "Helvetica";
 }
 
 .fa {
-    color: #FF6333;
     font-size: 20px;
 }
 
-.navbar-togglr {
-    border: 2px solid #FF71A7;
-    background-color: #2D3439;
+.navbar-toggler {
+    color: #FF6333;
 }
 
 .row {
@@ -38,54 +59,61 @@ body {
     color: #61666C;
 }
 
-p {
-    color: #8a2000;
-    font-size: 16px;
-    font-family: 'JetBrains Mono';
-}
-
-a {
-    color: #8a2000;
-    font-family: "Special Elite", "Helvetica";
-    font-size: 18px;
-}
-
-a:hover {
-    color: #FF71A7;
+#profile, #contact {
+    padding-left: 100px;
+    max-width: 1200px;
 }
 
 #headshot {
-    max-width: 280px;
+    float: left;
+    max-width: 300px;
     border-radius: 50%;
+    padding: 0px 20px 10px 0px;
 }
 
 .portfolio {
-    max-width: 800px;
+    background-image: linear-gradient(to bottom, #526888, #EEDAB5);
+    max-width: 1200px;
+    border-radius: 20px;
+}
+
+.portfolio h1 {
+    text-align: center;
+    padding: 10px;
 }
 
 .d-block {
-    max-width: 500px;
+    max-width: 800px;
 }
 
-footer {
-    background-color: #2D3439;
+.contact a {
+    color: #8a2000;
+    font-size: 24px;
+    padding: 10px 20px;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 630px) {
     .bio {
-        background-image: linear-gradient(to bottom, #88A2C1, #EEDAB5)
+        padding: 15px;
+        background-image: linear-gradient(to bottom, #526888, #EEDAB5);
+        border: 1px solid #FFFF;
+        border-radius: 10px;
+        text-align: justify;
+        margin: 0 auto 40px auto;
+    }
+    #profile, #contact {
+        padding-left: 0;
+    }
+    #headshot {
+        border-radius: 20px;
+        max-width: 100%;
+        padding: 10px;
     }
 }
 
 @keyframes pulse {
     0% {
         color: #2D3439;
-    }
-    75% {
-        color: #FF71A7;
-    }
-    90% {
-        color: #E6837D;
     }
     100% {
         color: #FF6333;
