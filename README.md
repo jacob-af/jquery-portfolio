@@ -17,7 +17,7 @@ Site is deployed at: [www.jacobaf.com](http://www.jacobaf.com/)
 
 - a working contact form instead of links
 
-## Contents
+## Files
 
 - index.html
 - README.md
@@ -25,17 +25,24 @@ Site is deployed at: [www.jacobaf.com](http://www.jacobaf.com/)
 - (assets)
   - script.js
   - style.css
+  - JacobFeitlersResume012021.pdf
   - (images)
-    - laserbg.jpg
-    - collapsed.png
-    - full-size.png
+    - headshot-from-cocktail-shot.png
+    - main-image,jpg
+    - puppy-party.png
+    - quiz-time.png
+    - weather-travel.png
+    - work-da-scheduler.png
+    - (Screenshots)
 
-## Usage
+#### Screenshots
 
-#### Welcome Screen
-
-![Screenshot](./assets/full-size.png)
-![Screenshot](./assets/collapsed.png)
+![Screenshot](./assets/images/screenshots/profile-full.png)
+![Screenshot](./assets/images/screenshots/portfolio-full.png)
+![Screenshot](./assets/images/screenshots/connect-full.png)
+![Screenshot](./assets/images/screenshots/profile-mobile.png)
+![Screenshot](./assets/images/screenshots/portfolio-mobile.png)
+![Screenshot](./assets/images/screenshots/connect-mobile.png)
 
 ## Credits
 

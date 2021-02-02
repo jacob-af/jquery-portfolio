@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="mainNav">
                 <ul class="nav navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link text-right active" id="home-click" href="#">Home</a>
+                        <a class="nav-link text-right active" id="home-click" href="#">Profile</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-right" id="portfolio-click" href="#">Portfolio</a>
@@ -44,26 +44,27 @@
             <div class="col">
                 <img src='./assets/images/headshot-from-cocktail-shot.png' class='img-fluid' id='headshot'
                     alt='headshot' />
-                <p class='bio'>I am a Full Stack Web Developer excited to use my skills in efficient problem
-                    solving, structured teamwork, and pragmatic design to create web applications that are equally
-                    functional and
+                <p class='bio'>I am a Full Stack Web Developer excited to use my skills in efficient problem solving,
+                    structured teamwork, and pragmatic design to create web applications that are equally functional and
                     beautiful. In my previous career in restaurants and hospitality, the ability to ‘Figure it out, make
                     it work, and move forward” was paramount to my success. I'm excited to bring new and more exciting
                     projects as I develop further skills in web development.</p>
+                <p>cheers,</p>
+                <h2 class="sig">Jacob</h2>
             </div>
         </div>
 
         <div class="animate__animated animate__fadeInUpBig row justify-content-center" id='portfolio'
             style="display: none">
             <div class="col portfolio">
-                <h1>Portfolio Projects</h1>
+                <h1>Recent Projects</h1>
                 <div id="github-carousel" class="carousel slide">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img class="d-block  img-fluid" src="./assets/images/weather-travel.png" alt="First slide">
                             <div class='text-center'>
                                 <h2>Weather Travel</h2>
-                                <p>A weather dashboard using Open Weather API</p>
+                                <p>A colorful weather dashboard using Open Weather API</p>
                                 <p>
                                     Deployed Site: <a href="https://www.jacobaf.com/weather-travel/"
                                         target="_blank">Weather Travel</a>
@@ -78,7 +79,8 @@
                         <div class="carousel-item">
                             <img class="d-block img-fluid" src="./assets/images/puppy-party.png" alt="Second slide">
                             <div class='text-center'>
-                                <h2>Schedule all your trips to the Dog Park</h2>
+                                <h2>Puppy Party Planner</h2>
+                                <p>Schedule all your trips to the Dog Park</p>
                                 <p>
                                     Deployed Site: <a href="https://jaortisi6.github.io/Puppy-Party-Planner/"
                                         target="_blank">Puppy Party
@@ -94,7 +96,8 @@
                         <div class="carousel-item">
                             <img class="d-block img-fluid" src="./assets/images/quiz-time.png" alt="Third slide">
                             <div class='text-center'>
-                                <h2>Timed quiz covering some JavaScript basics</h2>
+                                <h2>Quiz Time</h2>
+                                <p>Timed quiz covering some JavaScript basics</p>
                                 <p>
                                     Deployed Site: <a href="https://www.jacobaf.com/quiz-time/" target="_blank">Quiz
                                         Time<a />
@@ -109,7 +112,8 @@
                             <img class="d-block img-fluid" src="./assets/images/work-day-scheduler.png"
                                 alt="Fourth slide">
                             <div class='text-center'>
-                                <h2>Work Day Planner using Local Storage</h2>
+                                <h2>Day Planner</h2>
+                                <p>Work Day Planner using Local Storage</p>
                                 <p>
                                     Deployed Site: <a href="https://www.jacobaf.com/day-planer/" target="_blank">Day
                                         Planner</a>
@@ -122,11 +126,11 @@
                             </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#github-carousel" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" id="arrow" href="#github-carousel" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#github-carousel" role="button" data-slide="next">
+                    <a class="carousel-control-next arrow" href="#github-carousel" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
@@ -138,26 +142,32 @@
             <div class="col contact">
                 <h1>Connect</h1>
                 <div>
-                    <a href="mailto:jfeitler@gmail.com" target="_blank" class="fa fa-envelope">:
-                        jfeitler@gmail.com</a>
+                    <a href="mailto:jfeitler@gmail.com" target="_blank" class="fa fa-envelope"><span>:
+                            jfeitler@gmail.com</span>
+                    </a>
                 </div>
                 <div>
-                    <a href="https://www.facebook.com/Inflammable" target="_blank" class="fa fa-facebook">:
-                        facebook.com/Inflammable</a>
+                    <a href="https://www.facebook.com/Inflammable" target="_blank" class="fa fa-facebook"><span>:
+                            facebook.com/Inflammable</span>
+                    </a>
                 </div>
                 <div>
-                    <a href="https://www.instagram.com/jacob.af/" target="_blank" class="fa fa-instagram">:
-                        instagram/jacob.af</a>
+                    <a href="https://www.instagram.com/jacob.af/" target="_blank" class="fa fa-instagram"><span>:
+                            instagram/jacob.af</span></a>
                 </div>
                 <div>
-                    <a href="https://www.linkedin.com/in/jacobaf/" target="_blank" class="fa fa-linkedin">:
-                        linkedin/in/jacobaf</a>
+                    <a href="https://www.linkedin.com/in/jacobaf/" target="_blank" class="fa fa-linkedin"><span>:
+                            linkedin/in/jacobaf</span>
+                    </a>
                 </div>
                 <div>
-                    <a href="https://github.com/jacob-af" target="_blank" class="fa fa-github">: github.com/jacob-af</a>
+                    <a href="https://github.com/jacob-af" target="_blank" class="fa fa-github"><span>:
+                            github.com/jacob-af</span></a>
                 </div>
                 <div>
-                    <a href="./assets/JacobFeitlersResume012021.pdf" download>Download PDF Resume</a>
+                    <a href="./assets/JacobFeitlersResume012021.pdf" class="fa fa-file"><span>
+                            : Download PDF Resume
+                        </span></a>
                 </div>
             </div>
         </div>

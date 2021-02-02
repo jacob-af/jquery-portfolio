@@ -15,6 +15,13 @@ h1 {
     font-family: "Special Elite", "Helvetica";
 }
 
+h2 {
+    color: #8a2000;
+    font-family: 'Pinyon Script', "Helvetica";
+    font-size: 36px;
+    margin-top: 15px;
+}
+
 p {
     color: #8a2000;
     font-size: 16px;
@@ -44,6 +51,10 @@ a:hover {
 
 .navbar-toggler {
     color: #FF6333;
+}
+
+.sig {
+    padding-left: 50px;
 }
 
 .row {
@@ -101,23 +112,42 @@ a:hover {
     padding: 10px 20px;
 }
 
+.contact span {
+    font-family: "Special Elite", "Helvetica";
+}
+
+footer .fa {
+    letter-spacing: 5px;
+}
+
 @media (max-width: 630px) {
-    .bio {
-        padding: 15px;
-        background-image: linear-gradient(to bottom, #526888, #EEDAB5);
+    #profile {
         border: 1px solid #FFFF;
         border-radius: 10px;
-        text-align: justify;
-        margin: 0 auto 40px auto;
+        background-image: linear-gradient(to bottom, #526888, #EEDAB5);
+        margin: 0 auto 60px auto;
+        padding-top: 20px;
+    }
+    .bio {
+        padding: 15px;
     }
     #profile {
         margin-left: 0;
+    }
+    .d-block {
+        object-fit: cover;
+        width: 100%;
+    }
+    .arrow {
+        position: absolute;
+        bottom: 40px;
     }
     #contact {
         float: clear;
         margin-right: 0;
     }
     #headshot {
+        zoom: 1.5;
         border-radius: 20px;
         max-width: 100%;
         padding: 10px;
