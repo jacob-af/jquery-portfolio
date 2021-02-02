@@ -2,7 +2,7 @@
 
 ## About this page
 
-My professional webpage updated to a single page site using [bootstrap](), [jquery](), [animate.css](), and [google-fonts]().
+My professional webpage updated to a single page site using [bootstrap](https://getbootstrap.com/), [jquery](https://jquery.com/), [animate.css](https://animate.style/), and [google-fonts](https://fonts.google.com/).
 
 Site is deployed at: [www.jacobaf.com](http://www.jacobaf.com/)
 
