@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Pinyon+Script&family=Special+Elite&display=swap');
 body {
-    background: url("./main-image.jpg") no-repeat center center fixed;
+    background: url("./images/main-image.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -59,8 +59,8 @@ a:hover {
     color: #61666C;
 }
 
-#profile, #contact {
-    padding-left: 100px;
+#profile {
+    margin-left: 100px;
     max-width: 1200px;
 }
 
@@ -86,6 +86,13 @@ a:hover {
 .d-block {
     max-width: 800px;
     margin: 0 auto;
+    border: 2px solid #2D3439;
+    border-radius: 10px;
+}
+
+#contact {
+    float: right;
+    margin-right: 150px
 }
 
 .contact a {
@@ -103,8 +110,12 @@ a:hover {
         text-align: justify;
         margin: 0 auto 40px auto;
     }
-    #profile, #contact {
-        padding-left: 0;
+    #profile {
+        margin-left: 0;
+    }
+    #contact {
+        float: clear;
+        margin-right: 0;
     }
     #headshot {
         border-radius: 20px;
